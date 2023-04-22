@@ -71,7 +71,9 @@ ironfish wallet:balances
   
 Token Gönderimi
   
+```python
 ironfish wallet:send --memo <memoadresiniz>
+```
   
 <memoadresiniz> olan yere Kucoin'deki memo adresinizi yazın. Sonra adres isteyecek orayada Kucoin'deki yatırma adresini yazın. Miktarı ve fee'yi belirleyip gönderin. (gönderim 5-10dk sürebilir)
   
