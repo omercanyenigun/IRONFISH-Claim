@@ -1,5 +1,7 @@
-ıronfish Mainnet Node Kurulumu
+## Ironfish Mainnet Node Kurulumu
 
+
+![alt text](https://i.hizliresim.com/3zs1d10.png)
 
 ```python
 apt-get update && sudo apt upgrade -y
@@ -24,6 +26,8 @@ ironfish mainnet
 ```python
 ironfish version
 ```
+Mainnet versiyonunuz 1.0.1 olmalı
+
 
 ```python
 screen -S ironfish
@@ -33,7 +37,15 @@ screen -S ironfish
 ironfish start
 ```
 
-CTRL-A+C
+ironfish status
+
+
+Nodunuz senkronizasyon olmalı.
+
+![alt text](https://i.hizliresim.com/fkf1sxu.png)
+
+
+CTRL-A+C ile yeni screen sayfasında rescan ile blokları tarayın
 
 ```python
 ironfish wallet:rescan
@@ -50,6 +62,19 @@ ironfish wallet:use <nickname>
 ```
   
 Kodu ile cüzdanınızı varsayılan yapın
+  
+```python  
+ironfish wallet:balances
+```
+  
+Token Gönderimi
+  
+ironfish wallet:send --memo <memoadresiniz>
+  
+<memoadresiniz> olan yere Kucoin'deki memo adresinizi yazın. Sonra adres isteyecek orayada Kucoin'deki yatırma adresini yazın. Miktarı ve fee'yi belirleyip gönderin. (gönderim 5-10dk sürebilir)
+  
+![alt text](https://i.hizliresim.com/57t0hyu.png)
+  
   
   
   
