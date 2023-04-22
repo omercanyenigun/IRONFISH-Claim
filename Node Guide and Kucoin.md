@@ -37,7 +37,9 @@ screen -S ironfish
 ironfish start
 ```
 
+```python
 ironfish status
+```
 
 
 Nodunuz senkronizasyon olmalı.
